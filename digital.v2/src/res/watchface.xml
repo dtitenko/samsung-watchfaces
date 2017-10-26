@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<watchface device_name="Gear Fit 2" height="432" name="watchface.xml" schema_version="1.3" screen_type="0" version="1.5.0" width="216">
+    <root height="432" type="normal" width="216" x="0" y="0">
+        <background height="432" id="Background 1" name="digital_a_bg.png" width="216" x="0" y="0">
+            <condition source="workout">
+                <section end="100" start="0"/>
+            </condition>
+        </background>
+        <digitalclock alignment="131072" b="255" bitmap_font="false" custom_font="true" font_name="TitilliumWeb-ExtraLight" g="255" height="152" id="Hours" locale="en_US" r="255" size="93" style="1" text="H" width="107" x="0" y="203"/>
+        <digitalclock alignment="16384" b="255" bitmap_font="false" custom_font="true" font_name="TitilliumWeb-ExtraLight" g="255" height="152" id="Minutes" locale="en_US" r="255" size="93" style="0" text="mm" width="107" x="107" y="203"/>
+        <digitalclock alignment="16777216" b="0" bitmap_font="false" custom_font="true" font_name="TitilliumWeb-Light" g="133" height="46" id="Date" locale="en_US" r="255" size="32" style="0" text="EE, MMM d" width="216" x="0" y="332"/>
+        <image height="190" id="Background" name="circle_progress_3/circle_progress_31_0.png" width="190" x="13" y="40"/>
+        <hand end_angle="180.0" end_value="50.0" height="190" id="Hand 1" name="circle_progress_3/circle_progress_31.png" pivot_x="95" pivot_y="95" real="false" source="pedometer.stepPercent" start_angle="0.0" start_value="0.0" width="95" x="13" y="40">
+            <condition source="workout">
+                <section end="100" start="0"/>
+            </condition>
+        </hand>
+        <image height="190" id="left half blinder" name="circle_progress_3/circle_progress_33_0.png" width="95" x="13" y="40"/>
+        <hand b="0" end_angle="180.0" end_value="100.0" h="0" height="190" id="Hand 2" name="circle_progress_3/circle_progress_33.png" pivot_x="1" pivot_y="95" real="false" s="0" source="pedometer.stepPercent" start_angle="0.0" start_value="50.0" width="95" x="108" y="40">
+            <condition source="workout">
+                <section end="100" start="50"/>
+            </condition>
+        </hand>
+        <image height="200" id="central blinder" name="circle_progress_3/circle_progress_34_0.png" width="200" x="8" y="35"/>
+        <text alignment="16777216" b="1" bitmap_font="false" custom_font="true" font_name="TitilliumWeb-Regular" g="255" height="96" id="steps" locale="en_US" r="32" size="50" source="pedometer.step" style="0" text="14895" width="155" x="30" y="86"/>
+        <image b="-40" h="0" height="1" id="Image 1" name="Line1.png" s="0" width="92" x="60" y="105"/>
+        <image b="-40" h="0" height="1" id="Image 2" name="Line1.png" s="0" width="92" x="61" y="168"/>
+    </root>
+    <root height="360" type="ambient" width="360" x="0" y="0">
+        <background height="432" id="Background 1" name="__AMBIENT__/bg_preset_digital.png" width="216" x="0" y="0"/>
+        <image height="432" id="Image 2" name="__AMBIENT__/bg_preset_dark_img.png" width="216" x="0" y="0"/>
+        <digitalclock alignment="131072" b="255" bitmap_font="false" custom_font="true" font_name="Gear SNum-3R" g="255" height="90" id="Digitalclock 1" locale="en_US" r="255" size="93" style="1" text="H" width="105" x="0" y="259"/>
+        <digitalclock alignment="16384" b="255" bitmap_font="false" custom_font="true" font_name="Gear SNum-3T" g="255" height="90" id="Digitalclock 2" locale="en_US" r="255" size="93" style="0" text="mm" width="105" x="111" y="259"/>
+    </root>
+</watchface>
