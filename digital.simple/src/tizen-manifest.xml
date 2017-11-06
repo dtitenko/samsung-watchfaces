@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1.2" package="com.watchface.digital.simple" version="1.0.1">
+    <watch-application ambient-support="true" appid="com.watchface.digital.simple" exec="com.watchface.digital.simple">
+        <metadata key="http://developer.samsung.com/tizen/metadata/watchface" value="true"/>
+        <icon>digital.simple.png</icon>
+        <label>digital.simple</label>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.shape.band">true</feature>
+    <feature name="http://tizen.org/feature/screen.size.normal.216.432">true</feature>
+</manifest>
