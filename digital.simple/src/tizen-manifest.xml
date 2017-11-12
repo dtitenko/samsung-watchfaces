@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1.2" package="com.watchface.digital.simple" version="1.0.1">
     <watch-application ambient-support="true" appid="com.watchface.digital.simple" exec="com.watchface.digital.simple">
         <metadata key="http://developer.samsung.com/tizen/metadata/watchface" value="true"/>
-        <icon>digital.simple.png</icon>
+        <icon>digital.v2.png</icon>
         <label>digital.simple</label>
     </watch-application>
     <privileges>
