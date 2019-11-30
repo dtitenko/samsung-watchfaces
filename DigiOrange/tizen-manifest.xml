@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns="http://tizen.org/ns/packages" api-version="4.0.0.0" package="com.watchface.DigiOrange" version="1.0.0">
+    <watch-application appid="com.watchface.DigiOrange" exec="com.watchface.DigiOrange">
+        <metadata key="http://developer.samsung.com/tizen/metadata/watchface" value="true"/>
+        <icon>DigiOrange.png</icon>
+        <label>DigiOrange</label>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.shape.circle">true</feature>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.360">true</feature>
+</manifest>
