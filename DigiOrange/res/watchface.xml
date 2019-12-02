@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <watchface device_name="Gear S3, Gear Sport, Galaxy Watch, Galaxy Watch Active" height="360" name="watchface.xml" schema_version="1.5" screen_type="1" version="1.8.1" width="360">
     <root height="360" type="normal" width="360" x="0" y="0">
-        <image height="360" id="Background ch_bg_c_04" name="ch_bg_c_04.png" width="360" x="0" y="0"/>
+        <image action_type="image-set" height="360" id="Image blue_0" name="blue_0.png" tap="double-tap" width="360" x="0" y="0">
+            <image-set>
+                <image>action/image/green.png</image>
+                <image>action/image/black.png</image>
+            </image-set>
+        </image>
         <digitalclock alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Regular" g="109" height="128" id="DC-Hours" locale="en_US" r="255" size="84" style="0" text="H" width="90" x="39" y="104"/>
-        <digitalclock alignment="16384" b="179" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="179" height="115" id="DC-Minutes" locale="en_US" r="179" size="76" style="0" text="mm" width="90" x="133" y="111"/>
+        <digitalclock alignment="16384" b="210" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="210" height="128" id="DC-Minutes" locale="en_US" r="210" size="76" style="0" text="mm" width="90" x="137" y="107"/>
         <digitalclock alignment="16777216" b="164" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="164" height="55" id="Date" locale="en_US" r="164" size="36" style="0" text="EE, MMM dd" width="209" x="21" y="207"/>
-        <text alignment="16777216" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="109" height="43" id="Battery" locale="en_US" postfix=" %" r="255" size="24" source="battery.percent" style="0" text="Text" width="66" x="92" y="85">
+        <text alignment="16777216" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="109" height="48" id="Battery" locale="en_US" postfix=" %" r="255" size="28" source="battery.percent" style="0" text="Text" width="66" x="92" y="88">
             <condition source="battery">
                 <section end="25" start="0"/>
             </condition>
         </text>
-        <text alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="255" height="48" id="Steps" locale="en_US" r="40" size="32" source="pedometer.step" style="2" text="Text" width="111" x="222" y="133"/>
-        <text alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Light" g="81" height="48" id="Calories" locale="en_US" precision="0" r="255" size="32" source="pedometer.calorie" style="3" text="Text" unit="kcal" width="111" x="222" y="181"/>
+        <text alignment="16384" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Regular" g="109" height="46" id="Text 1" locale="en_US" postfix=" °C" precision="0" r="255" size="28" source="Current Temperature" style="0" text="Text" unit="°C" width="110" x="137" y="262"/>
+        <text a="182" alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" displayType="Icon" font_name="TitilliumWeb-Regular" g="109" height="46" id="Text 2" locale="en_US" r="255" size="28" source="Weather Type" style="0" text="Text" width="64" x="67" y="262"/>
     </root>
 </watchface>
