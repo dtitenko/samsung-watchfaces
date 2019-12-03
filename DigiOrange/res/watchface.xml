@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <watchface device_name="Gear S3, Gear Sport, Galaxy Watch, Galaxy Watch Active" height="360" name="watchface.xml" schema_version="1.5" screen_type="1" version="1.8.1" width="360">
     <root height="360" type="normal" width="360" x="0" y="0">
-        <image action_type="image-set" height="360" id="Image blue_0" name="blue_0.png" tap="double-tap" width="360" x="0" y="0">
+        <image action_type="image-set" height="360" id="background" name="blue_0.png" tap="double-tap" width="360" x="0" y="0">
             <image-set>
                 <image>action/image/green.png</image>
+                <image>action/image/gray.png</image>
                 <image>action/image/black.png</image>
             </image-set>
         </image>
@@ -15,7 +16,8 @@
                 <section end="25" start="0"/>
             </condition>
         </text>
-        <text alignment="16384" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Regular" g="109" height="46" id="Text 1" locale="en_US" postfix=" °C" precision="0" r="255" size="28" source="Current Temperature" style="0" text="Text" unit="°C" width="110" x="137" y="262"/>
-        <text a="182" alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" displayType="Icon" font_name="TitilliumWeb-Regular" g="109" height="46" id="Text 2" locale="en_US" r="255" size="28" source="Weather Type" style="0" text="Text" width="64" x="67" y="262"/>
+        <text alignment="16384" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="TitilliumWeb-Regular" g="109" height="46" id="Temp" locale="en_US" postfix=" °C" precision="0" r="255" size="28" source="Current Temperature" style="0" text="Text" unit="°C" width="110" x="137" y="262"/>
+        <text a="182" alignment="131072" b="0" bitmap_font="false" custom_font="true" default_locale="en_US" displayType="Icon" font_name="TitilliumWeb-Regular" g="109" height="46" id="WeatherType" locale="en_US" r="255" size="28" source="Weather Type" style="0" text="Text" width="64" x="67" y="262"/>
+        <text alignment="16384" b="112" bitmap_font="false" custom_font="true" default_locale="en_US" displayType="M/d HH:mm" font_name="TitilliumWeb-Light" g="112" height="38" id="Text 1" locale="en_US" r="112" size="22" source="Last update Time" style="0" text="Text" width="138" x="95" y="292"/>
     </root>
 </watchface>
